@@ -1,6 +1,5 @@
-package btvn.bai2;
+package btvn.Ex2;
 
-import java.util.Scanner;
 /*
 * Phần 1 :
 * Lệnh if (rs.next())là  kiểm tra xem tập kết quả có ít nhất một hàng dữ liệu hay không
@@ -16,7 +15,7 @@ import java.sql.SQLException;
 import java.sql.Statement;
 
 public class PharmacyCatalogue {
-    private static final String URL = "jdbc:mysql://localhost:3306/my_db1";
+    private static final String URL = "jdbc:mysql://localhost:3306/Hospital_DB";
     private static final String USER = "root";
     private static final String PASS = "Linh190426@";
 
